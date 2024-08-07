@@ -704,7 +704,13 @@ margin-right: auto;
     .closetype *, .closetype {
         display: none;
     }
-    
+}
 
-    
+@media (max-width:600px){
+    .columns {
+        display: flex;
+        flex-direction: column;
+        
+      
     }
+}
