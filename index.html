@@ -9,18 +9,19 @@
 </head>
 <body>
     <section class="pop_up">
-        <button onclick="openPopup()" class="menubtn"><img src="./image/Vector.svg" alt="menu"></button>
+        <button id="open-popup"><img src="./image/Vector.svg" alt=""></button>
 
-  <div class="popup" id="myPopup">
-    <span class="close" onclick="closePopup()">Close</span>
-    <h3>Information</h3>
-    <ul class="pop_upul">
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Product</li>
-    </ul>
-  </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup" onclick="closePopup()">&times;</span>
+            <h2>Popup Menu</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     </section>
     <section class="header">
         <div class="head">
@@ -258,7 +259,7 @@ goal for the month and year.</p>
     </div>
   </section>
 
-  <footer class="endWork">
+  <!-- <footer class="endWork">
     <div class="columns">
         <div class="fingertipe">
             <h3>Fingertipe</h3>
@@ -304,7 +305,7 @@ goal for the month and year.</p>
         </div>
     </div>
 
-  </footer>
+  </footer> -->
 
 <script src="./script.js"></script>
 </body>
