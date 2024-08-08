@@ -196,7 +196,10 @@ ul {
     padding: 0;
 }
 
+
 .popup-content li {
+
+li {
     padding: 40px 0;
     border-bottom: 1px solid #eee;
 }
